@@ -5,7 +5,7 @@
 // Module      : alu
 // Project     : SystemVerilog and Verification (23EC6PE2SV),
 // Faculty     : Prof. Ajaykumar Devarapalli
-// Description : // This module implements a 4-bit priority encoder that outputs the encoded value of the highest-priority active input along with a valid signal.
+// Description : // Performs basic arithmetic and logical operations on two 4-bit inputs based on a 2-bit opcode using combinational logic.
 //-------------------------------------------------------------------------
 typedef enum bit [1:0] {ADD,SUB,AND,OR} opcode_e;
 module alu(
