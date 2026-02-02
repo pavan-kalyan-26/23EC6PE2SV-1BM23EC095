@@ -7,6 +7,7 @@
 // Faculty     : Prof. Ajaykumar Devarapalli
 // Description : // Performs basic arithmetic and logical operations on two 4-bit inputs based on a 2-bit opcode using combinational logic.
 //-------------------------------------------------------------------------
+
 typedef enum bit [1:0] {ADD,SUB,AND,OR} opcode_e;
 module alu(
   input logic [3:0] a,b,
